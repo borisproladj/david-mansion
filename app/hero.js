@@ -12,12 +12,12 @@ export default function Hero() {
   return (
     <div className={`h-screen w-full relative ${montserrat.className}`}>
       {/* Black section taking up 1/3 of the screen with text */}
-      <div className="bg-customBlack w-1/3 h-full absolute inset-y-0 left-0 flex items-center justify-start hidden lg:flex">
+      <div className="bg-customBlack w-1/3 h-full absolute inset-y-0 left-0 items-center justify-start hidden lg:flex">
         <div className="text-white text-xl p-4 absolute bottom-10 ml-10">
           <h1 className="writing-mode-vertical-rl font-bold mb-20tracking-wider">Follow us</h1> <br />
           <Svg name="instagram" />
-          <Svg name="facebook" />
           <Svg name="tiktok" />
+          <Svg name="google" />
         </div>
       </div>
 

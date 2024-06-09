@@ -15,6 +15,9 @@ module.exports = {
         customOrange: '#ffb142',
         customBlack: '#151517'
       },
+      boxShadow: {
+        '3xl': '0 35px 60px -15px rgba(0, 0, 0, 0.3)',
+      },
       // Custom utilities
       utilities: {
         '.writing-mode-vertical-rl': {
