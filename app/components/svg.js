@@ -7,6 +7,7 @@ const Svg = ({ name }) => {
         <a
           href="https://www.instagram.com/kingdavid.mansion?igsh=MW1sMGdhbHhwdnVmNg%3D%3D&utm_source=qr"
           target="_blank"
+          aria-label="Find more about us on Instagram"
         >
           <svg
             viewBox="0 0 24 24"
@@ -44,7 +45,11 @@ const Svg = ({ name }) => {
       );
     case "google":
       return (
-        <a href="https://g.co/kgs/bJYF4zV" target="_blank">
+        <a
+          href="https://g.co/kgs/bJYF4zV"
+          target="_blank"
+          aria-label="Find more about us on Google"
+        >
           <svg
             viewBox="0 0 24 24"
             fill="none"
@@ -73,6 +78,7 @@ const Svg = ({ name }) => {
         <a
           href="https://www.tiktok.com/@kingdavid.mansion?_t=8n43EHUPcEK&_r=1"
           target="_blank"
+          aria-label="Find more about us on Tiktok"
         >
           <svg
             fill="#ffffff"
