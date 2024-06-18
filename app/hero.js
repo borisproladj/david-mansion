@@ -27,7 +27,7 @@ export default function Hero() {
       {/* Section with the background image taking up 2/3 of the screen on large devices, full screen on smaller */}
       <div className="w-full lg:w-2/3 h-full absolute inset-y-0 right-0">
         <Image
-          src="/background.jpeg"
+          src="/background.webp"
           alt="Background"
           layout="fill"
           objectFit="cover"
