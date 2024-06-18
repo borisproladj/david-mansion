@@ -42,7 +42,7 @@ export default function Hero() {
         </div>
         <div className="absolute inset-0 flex items-center justify-center sm:justify-start sm:left-10 md:left-10 lg:left-64 lg:top-[600px] md:top-[400px] top-[500px]">
           <a
-            href="https://wa.me/972525205265?text=Hello%2C%20I%27m%20interested%20in%20booking%20a%20stay%21"
+            href="whatsapp://send?abid=+972525205265&text=Hello%2C%20World!"
             target="_blank"
             className="btn btn-active bg-transparent border-customOrange text-white font-bold py-2 px-4 rounded-3xl hover:bg-customOrange"
           >
