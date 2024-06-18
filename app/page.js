@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Hero from "./hero";
-import Mobile from "./mobile";
+import Hero from "../components/hero";
+import Mobile from "../components/mobile";
 
 export default function Home() {
   return (

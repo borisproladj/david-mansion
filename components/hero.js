@@ -1,5 +1,5 @@
 import Image from "next/image";
-import MidContainer from "./midcontainer";
+import VideoPlayer from "../components/VideoPlayer";
 import Svg from "../components/svg"; // Make sure the path is correct
 import { Montserrat } from "next/font/google";
 
@@ -53,7 +53,7 @@ export default function Hero() {
 
       {/* Middle container adjusted for better visibility and space */}
       <div className="absolute inset-y-0 left-1/3 transform -translate-x-1/2 w-1/4 flex items-center justify-center hidden lg:flex">
-        <MidContainer />
+        <VideoPlayer />
       </div>
     </div>
   );
