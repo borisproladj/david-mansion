@@ -1,6 +1,6 @@
 import Image from "next/image";
 import MidContainer from "./midcontainer";
-import Svg from './components/svg'; // Make sure the path is correct
+import Svg from "./components/svg"; // Make sure the path is correct
 import { Montserrat } from "next/font/google";
 
 const montserrat = Montserrat({
@@ -14,7 +14,10 @@ export default function Hero() {
       {/* Black section taking up 1/3 of the screen with text */}
       <div className="bg-customBlack w-1/3 h-full absolute inset-y-0 left-0 items-center justify-start hidden lg:flex">
         <div className="text-white text-xl p-4 absolute bottom-10 ml-10">
-          <h1 className="writing-mode-vertical-rl font-bold mb-20tracking-wider">Follow us</h1> <br />
+          <h1 className="writing-mode-vertical-rl font-bold mb-20tracking-wider">
+            Follow us
+          </h1>{" "}
+          <br />
           <Svg name="instagram" />
           <Svg name="tiktok" />
           <Svg name="google" />
@@ -35,6 +38,15 @@ export default function Hero() {
         </div>
         <div className="text-2xl tracking-wide font-bold absolute inset-0 flex items-center justify-center sm:justify-start sm:left-10 md:left-10 lg:left-64 lg:top-24 2xl:top-40 md:top-24 top-24 right-5">
           Eilat, Israel
+        </div>
+        <div className="absolute inset-0 flex items-center justify-center sm:justify-start sm:left-10 md:left-10 lg:left-64 lg:top-[600px] md:top-[400px] top-[500px]">
+          <a
+            href="whatsapp://send?abid=+972525205265&text=Hello%2C%20World!"
+            target="_blank"
+            className="btn btn-active bg-transparent border-customOrange text-white font-bold py-2 px-4 rounded-3xl hover:bg-customOrange"
+          >
+            Book Now
+          </a>
         </div>
       </div>
 
