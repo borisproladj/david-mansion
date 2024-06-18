@@ -1,6 +1,6 @@
 import Image from "next/image";
 import MidContainer from "./midcontainer";
-import Svg from "./components/svg"; // Make sure the path is correct
+import Svg from "../components/svg"; // Make sure the path is correct
 import { Montserrat } from "next/font/google";
 
 const montserrat = Montserrat({
