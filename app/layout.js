@@ -14,6 +14,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <Head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
+        <meta property="og:image" content="kingdavidicon.png" />
       </Head>
       <body className={inter.className}>{children}</body>
     </html>
