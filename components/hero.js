@@ -22,7 +22,11 @@ export default function Hero() {
           <br />
           <div className="mt-20">
             <Svg name="instagram" />
+          </div>
+          <div className="mt-20">
             <Svg name="tiktok" />
+          </div>
+          <div className="mt-20">
             <Svg name="google" />
           </div>
         </div>

@@ -5,7 +5,6 @@ const Svg = ({ name }) => {
     fill: "#FFFFFF", // Ensuring fill is white, or choose a color that contrasts with your background
     width: "24px",  // Set a width for the SVG
     height: "24px", // Set a height for the SVG
-    display: "block" // Ensure SVGs are not inline elements which might lead to incorrect sizing
   };
   switch (name) {
     case "instagram":
