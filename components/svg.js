@@ -1,6 +1,12 @@
 import React from "react";
 
 const Svg = ({ name }) => {
+  const style = {
+    fill: "#FFFFFF", // Ensuring fill is white, or choose a color that contrasts with your background
+    width: "24px",  // Set a width for the SVG
+    height: "24px", // Set a height for the SVG
+    display: "block" // Ensure SVGs are not inline elements which might lead to incorrect sizing
+  };
   switch (name) {
     case "instagram":
       return (
@@ -13,7 +19,7 @@ const Svg = ({ name }) => {
             viewBox="0 0 24 24"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            className="mt-20"
+            style= {style}
           >
             <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
             <g
@@ -55,7 +61,7 @@ const Svg = ({ name }) => {
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
             stroke="#FFF"
-            className="mt-20"
+            style= {style}
           >
             <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
             <g
@@ -85,7 +91,7 @@ const Svg = ({ name }) => {
             viewBox="0 0 32 32"
             version="1.1"
             xmlns="http://www.w3.org/2000/svg"
-            className="mt-20"
+            style= {style}
           >
             <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
             <g
