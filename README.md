@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# King-David Mansion Website
 
-## Getting Started
+This project is a web platform built for a villa accommodation service, showcasing the villa with distinct experiences tailored for both mobile and desktop users. The website highlights the villa's features, offers booking capabilities, and provides an immersive video tour, making extensive use of modern web technologies for a responsive, user-friendly interface.
 
-First, run the development server:
+## Features
+
+- **Responsive Design**: Tailored experiences for both mobile and desktop views.
+- **Video Integration**: Utilizes Google Cloud Delivery (GCD) for efficient video streaming.
+- **Modern UI**: Built with Next.js and styled using TailwindCSS and DaisyUI for a sleek, modern look.
+
+## Live Demo
+
+You can view the live demo of the website here: [King-David Mansion](http://www.villa-bs.co.il)
+
+## Technologies Used
+
+- **[Next.js](https://nextjs.org/)**: The React framework for production.
+- **[TailwindCSS](https://tailwindcss.com/)**: A utility-first CSS framework for rapidly building custom designs.
+- **[DaisyUI](https://daisyui.com/)**: DaisyUI extends TailwindCSS to provide beautifully crafted UI components.
+- **[Google Cloud Delivery (GCD)](https://cloud.google.com/)**: Used for hosting and delivering media content efficiently.
+
+## Installation
+
+To get a local copy up and running follow these simple steps:
 
 ```bash
+git clone https://github.com/borisproladj/david-mansion.git
+cd david-mansion
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Usage
+After installation, the site can be accessed locally at http://localhost:3000. The site is ready to be deployed to a live system with configurations for both development and production environments.
