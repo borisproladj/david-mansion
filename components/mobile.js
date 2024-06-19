@@ -13,7 +13,7 @@ export default function Mobile() {
             {" "}
             {/* Adjust size as needed */}
             <Image
-              src="/kingdavidicon.png"
+              src="/kingdavidicon.webp"
               alt="Icon"
               layout="fill"
               objectFit="cover"
